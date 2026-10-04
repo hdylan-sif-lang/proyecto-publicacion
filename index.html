@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1020">
+    <meta name="description" content="Compara hosting gratuito y de pago para elegir dónde publicar tu proyecto web.">
+    <title>Publicación y despliegue | Proyecto Integrador Web</title>
+    <link rel="preload" href="img/proyecto.svg" as="image" type="image/svg+xml">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#inicio" aria-label="Proyecto Web, ir al inicio">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>Proyecto<span class="brand-light">Web</span></span>
+            </a>
+
+            <nav aria-label="Navegación principal">
+                <a class="nav-link" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#hosting">Hosting</a>
+                <a class="nav-link" href="#elegir">Cómo elegir</a>
+                <a class="nav-link" href="#publicar">Publicación</a>
+                <a class="nav-cta" href="#hosting">Ver comparativa <span aria-hidden="true">↗</span></a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido">
+        <section class="hero container" id="inicio" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> GUÍA DE PUBLICACIÓN WEB</p>
+                <h1 id="hero-title">Tu proyecto merece <span>un gran lugar</span> en internet.</h1>
+                <p class="hero-description">
+                    Elegir dónde alojar tu sitio es el primer paso para publicarlo.
+                    Compara alternativas gratuitas y de pago según lo que necesitas.
+                </p>
+                <a class="primary-link" href="#hosting">
+                    Comparar servicios
+                    <span aria-hidden="true">↓</span>
+                </a>
+                <a class="secondary-link" href="#elegir">Aprende cómo elegir</a>
+                <ul class="hero-points" aria-label="Contenido de la guía">
+                    <li><span aria-hidden="true">✓</span> Costos claros</li>
+                    <li><span aria-hidden="true">✓</span> Diferencias clave</li>
+                </ul>
+            </div>
+
+            <figure class="hero-visual">
+                <img
+                    src="img/proyecto.svg"
+                    alt="Ilustración de un sitio web conectado de forma segura y listo para publicarse"
+                    width="1200"
+                    height="560"
+                    fetchpriority="high">
+                <figcaption><span aria-hidden="true">●</span> De tu entorno local a la web</figcaption>
+            </figure>
+        </section>
+
+        <section class="comparison-section" id="hosting" aria-labelledby="hosting-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">ENCUENTRA TU OPCIÓN</p>
+                    <h2 id="hosting-title">¿Qué hosting te conviene?</h2>
+                    <p>La mejor opción depende del tipo de proyecto, las herramientas que necesitas y tu presupuesto.</p>
+                </div>
+
+                <div class="table-shell" role="region" aria-label="Comparativa de hosting; desplázate horizontalmente para ver todas las columnas" tabindex="0">
+                    <table>
+                        <caption>Comparación entre hosting gratuito y hosting de pago</caption>
+                        <thead>
+                            <tr>
+                                <th class="criteria-column" scope="col">Criterio</th>
+                                <th scope="col">
+                                    <span class="plan-name">Hosting gratuito</span>
+                                    <span class="plan-detail">Ejemplo: GitHub Pages</span>
+                                </th>
+                                <th scope="col">
+                                    <span class="plan-name">Hosting de pago</span>
+                                    <span class="plan-detail">Shared / VPS</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Costo</th>
+                                <td><span class="free-price">$0 <small>USD</small></span></td>
+                                <td>Desde <strong>$3–$15 USD</strong> al mes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Dominio</th>
+                                <td>Subdominio, por ejemplo <code>usuario.github.io</code></td>
+                                <td>Dominio propio, por ejemplo <code>midominio.com</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Base de datos</th>
+                                <td><span class="availability unavailable">No incluida</span><br>Ideal para sitios estáticos</td>
+                                <td><span class="availability available">Disponible</span><br>Según el plan: MySQL, PostgreSQL y PHP</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Seguridad y transferencia</th>
+                                <td>Publicación automática con Git y HTTPS</td>
+                                <td>Gestión mediante FTP, SFTP o SSH</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Uso recomendado</th>
+                                <td>Portafolios, tareas y pruebas</td>
+                                <td>Sitios de clientes y tiendas online</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="table-note"><span aria-hidden="true">i</span> Los precios son orientativos y pueden variar según el proveedor y el plan contratado.</p>
+            </div>
+        </section>
+
+        <section class="guide-section" id="elegir" aria-labelledby="guide-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">ANTES DE CONTRATAR</p>
+                    <h2 id="guide-title">Elige con criterio, no a ciegas.</h2>
+                    <p>Piensa en lo que tu sitio necesita hoy y en lo que podría necesitar mañana.</p>
+                </div>
+
+                <div class="guide-grid">
+                    <article class="guide-card">
+                        <span class="card-number" aria-hidden="true">01</span>
+                        <h3>Define tu proyecto</h3>
+                        <p>Un portafolio o una landing page puede funcionar como sitio estático. Para usuarios, pagos o contenido dinámico, confirma que el plan soporte servidor y base de datos.</p>
+                    </article>
+                    <article class="guide-card">
+                        <span class="card-number" aria-hidden="true">02</span>
+                        <h3>Calcula el costo real</h3>
+                        <p>Revisa precio de renovación, dominio, certificados, copias de seguridad y límites de almacenamiento. El precio inicial no siempre es el precio habitual.</p>
+                    </article>
+                    <article class="guide-card">
+                        <span class="card-number" aria-hidden="true">03</span>
+                        <h3>Piensa en el crecimiento</h3>
+                        <p>Considera tráfico esperado, soporte técnico y facilidad para migrar. Empieza sencillo, pero evita quedar atado a una solución difícil de ampliar.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="publish-section" id="publicar" aria-labelledby="publish-title">
+            <div class="container publish-layout">
+                <div class="publish-copy">
+                    <p class="eyebrow">DE LOCAL A ONLINE</p>
+                    <h2 id="publish-title">Publica tu sitio en tres pasos.</h2>
+                    <p>Con el hosting elegido, prepara tu proyecto para que las personas puedan encontrarlo y navegarlo con confianza.</p>
+                    <a class="primary-link" href="#inicio">Volver al inicio <span aria-hidden="true">↑</span></a>
+                </div>
+                <ol class="publish-steps">
+                    <li>
+                        <span class="step-icon" aria-hidden="true">01</span>
+                        <div><h3>Prepara los archivos</h3><p>Comprueba enlaces, imágenes y vista en móvil antes de subirlos.</p></div>
+                    </li>
+                    <li>
+                        <span class="step-icon" aria-hidden="true">02</span>
+                        <div><h3>Conecta el dominio</h3><p>Usa el subdominio gratuito o configura el dominio propio con tu proveedor.</p></div>
+                    </li>
+                    <li>
+                        <span class="step-icon" aria-hidden="true">03</span>
+                        <div><h3>Verifica y protege</h3><p>Abre el sitio publicado, revisa sus páginas y confirma que HTTPS esté activo.</p></div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand footer-brand" href="#inicio">
+                <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+                <span>Proyecto<span class="brand-light">Web</span></span>
+            </a>
+            <p>Proyecto Integrador Web <span aria-hidden="true">·</span> Publicación y despliegue</p>
+        </div>
+    </footer>
+</body>
+</html>
